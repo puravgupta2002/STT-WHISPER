@@ -24,11 +24,5 @@ pip install -r requirements.txt
 ```
 > Ensure `torch` and `transformers` are installed for the Whisper model.
 
-### 3️⃣ Download Whisper Model
-```python
-from transformers import WhisperForConditionalGeneration
-model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-small")
-```
-
 ---
 
